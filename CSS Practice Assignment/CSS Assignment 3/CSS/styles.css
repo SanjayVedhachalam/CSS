@@ -1,0 +1,131 @@
+.main{
+    border: thin;
+}
+.button1{
+    background-color: #f44336;
+}
+.button2{
+    background-color: #0d8bf2;
+}
+.button3{
+    background-color: #4caf50;
+}
+.button4{
+    background-color: #ff9800;
+    color: black;
+    border: thin;
+    font-weight:500;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+}
+.button5{
+    background-color: #009688;
+}
+.button6{
+    background-color: #000000;
+}
+.button7{
+    background-color: #b3b3b3;
+}
+.button-attribute{
+    border: thin;
+    color: white;
+    font-weight:500;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+}
+.button8{
+    border: thin lightgray solid;
+    background-color: white;
+}
+.button9{
+    border: thin #9e9e9e solid;
+    background-color: #9e9e9e;
+    border-radius: 0.3rem;
+}
+.button10{
+    border: thin #0d8bf2 solid;
+    background-color:white;
+    border-radius: 0.2rem;
+}
+.button11{
+    border: thin #f44945 solid;
+    background-color:white;
+    border-radius: 0.6rem;
+    color: #f44945;
+    font-weight:500;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+}
+.button12{
+    border: thin #8bad8c solid;
+    background-color:white;
+    border-radius: 0.9rem;
+}
+.button13{
+    border: thin;
+    background-color:#f54d41;
+    text-shadow: 0.1rem 0.05rem #545151;
+    color: white;
+    font-weight:bolder;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+}
+.button14{
+    border: thin solid;
+    background-color:#000000;
+    color: white;
+    font-weight:500;
+    letter-spacing: 0.7px;
+    padding: 0.8rem 1.3rem;
+    font-size: 0.9rem;
+}
+.button-attribute-2{
+    color: black;
+    font-weight:500;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;   
+}
+.button15{
+    background-color: #000000;
+}
+.button16{
+    background-color: #009688;
+}
+.button17{
+    border: thin;
+    padding: 0.7rem 1rem;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+    font-size: 1.5rem;
+}
+.button-attribute-3{
+    color: white;
+    border: thin;
+    padding: 0.7rem 1rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+.button18{
+    background-color: black;
+}
+.button19{
+    background-color: #009688;
+}
+.button20{
+    background-color: #545454;
+}
+.button-attribute-4{
+    border: thin;
+    color: white;
+    font-weight:400;
+    letter-spacing: 0.7px;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+    margin-left: -0.33rem;
+}

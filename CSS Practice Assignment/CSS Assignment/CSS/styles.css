@@ -1,0 +1,110 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color: #808080;
+    
+}
+.hello{
+    margin-top: 0.1rem;
+}
+.title{
+    margin-bottom: 1.2rem;
+    margin-top: 1.7rem;
+}
+.left-box{
+    border: thin ;
+    float: left;
+    padding: 4% 2%;
+    width: 307.413px;
+    height: 305.225px;
+    background-color: #9c3c44;
+    color: white;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+
+}
+.facebook-button{
+    background-color: #3d609e;
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 3%;
+    margin-top: -2rem;
+    border: thin;
+}
+.google-button{
+    background-color: #f14436;
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 3%;
+    margin-top: 0.6rem;
+    border: thin;
+}
+.twitter-button{
+    background-color: #28a8e0;
+    color: white;
+    width: 100%;
+    text-align: left;   
+    padding: 3%;
+    margin-top: 0.6rem;
+    border: thin;
+}
+.logo{
+    font-weight: bolder;
+}
+.right-box{
+    border: thin;
+    float: left;
+    padding: 4% 2%;
+    width: 307.413px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+.login{
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+}
+.login-content{
+    color:purple;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.account{
+    color: #28a8e0;
+}
+.username{
+    width: 98%;
+    padding: 2%;
+    margin-bottom: -1rem;
+    border:thin lightgray solid;
+}
+.password{
+    width: 98%;
+    padding: 2%;
+    border:thin lightgray solid;
+}
+.remember-me{
+    font-weight: bolder;
+    font-size: small;
+    color: grey;
+}
+.login-button{
+    padding: 3%;
+    margin-top: -1rem;
+    background-color: #f4364f;
+    color: white;
+    border: none;
+    border-radius: 0.1rem;
+}
+.footer{
+    font-size: 0.78rem;
+    text-decoration: none;
+    color:purple;
+    margin-bottom: 2.12rem;
+}

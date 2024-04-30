@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: thin solid;
+            width: 100px;
+            margin: 20px auto;
+            height: 100px;
+            padding: 5px;
+        }
+        #top-left{
+            box-shadow: -5px -5px grey;
+        }
+        #bottom-right{
+            box-shadow: 5px 5px 5px grey;
+        }
+        #bottom-right-spread{
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+        #outer-spread{
+            box-shadow: 0 0 10px gray;
+        }
+        #inset{
+            box-shadow:inset 0 0 10px yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Box Shadow Property</h2>
+    <div id="top-left">Top Left</div>
+    <div id="bottom-right">Botton Right</div>
+    <div id="bottom-right-spread">Botton Right Spread</div>
+    <div id="outer-spread">Outer Spread</div>
+    <div id="inset">Inset</div>
+</body>
+</html>

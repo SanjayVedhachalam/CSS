@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.menu-bar{
+    background-color: black;
+    color: white;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.items{
+    padding: 1rem 2rem;
+
+}
+.products:hover{
+    background-color: rgb(58, 58, 58);
+}
+.solution-services:hover{
+    background-color: rgb(58, 58, 58);
+}
+.learning:hover{
+    background-color: rgb(58, 58, 58);
+}
+.pricing:hover{
+    background-color: rgb(58, 58, 58);
+}
+.company:hover{
+    background-color: rgb(58, 58, 58);
+}
+.free-trial{
+    background-color: rgb(19, 105, 171);
+    padding: 0.7rem 1.3rem;
+    border: none;
+    margin-top: -1rem;
+    margin-bottom: -0.5rem;
+    margin-left: -1.2rem;
+    border-radius: 0.2rem;
+}

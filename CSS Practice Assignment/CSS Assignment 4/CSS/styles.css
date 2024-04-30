@@ -1,0 +1,39 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-1{
+    float: left;
+    border-radius: 0.5rem;
+}
+.image-2{
+    border-radius: 60%;
+    width: 17rem;
+    height: 11rem;
+}
+.image-3{
+    border-style: solid;
+    border-width: 0.2rem;
+    padding: 0.3rem;
+    border-color: lightgray;
+}
+.image-4{
+    box-shadow: 0 0 2rem gray;
+}
+.images{
+    float: left;
+    margin: 0 1rem;
+}
+.image-dimension{
+    width: 15rem;
+    height: 12rem;
+}
+.carrot-text{
+    position: relative;
+    top: -3rem;
+    left: 2.2rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+

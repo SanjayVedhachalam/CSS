@@ -1,0 +1,54 @@
+.start{
+    width: 50%;
+    margin: 0 auto;
+    border: thin solid teal;
+    padding: 2%;
+}
+.heading{
+    margin-top: -10px;
+}
+/* Universal Selector
+*{
+    padding: 0;
+    margin: 0;
+}*/
+
+/* Adjacent Sibling Selector - immediate next element*/
+h2 + p{
+    margin: 0;
+}
+/*General Sibling Selector - all elements after the h4 element*/
+h4 ~ p {
+    font-style: italic;
+}
+/*Descendant Selector - applies to the all child elements of their one*/
+li a{
+    text-decoration: none;
+}
+.first-ul>li>a{
+    color: brown;
+}
+/*Attribute Selector*/
+[title]{
+    color: aqua;
+}
+a[href^="https"]{
+    color: chartreuse;
+}
+a[target="_blank"]{
+    color: chocolate;
+}
+img[alt*="icon"]{/*if it contains atleast one icon*/
+    border: thick solid greenyellow;
+    display: inline-block;
+    border-collapse: collapse;
+}
+img[alt~="icon"]{/*exact match*/
+    border: thick solid blueviolet;
+    display: inline-block;
+    border-collapse: collapse;
+}
+img[href$=".png"]{/*ends with*/
+    background: url('../Images/OIP.png') no-repeat center right;
+    
+}

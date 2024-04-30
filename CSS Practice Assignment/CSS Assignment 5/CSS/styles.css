@@ -1,0 +1,16 @@
+.home{
+    margin-left: -0.2rem;
+}
+.bars{
+    margin-left: -0.1rem;
+}
+.left-arrow{
+    margin-left: -0.2rem;
+    margin-top: -0.1rem;
+}
+.right-arrow{
+    margin-top: 0.1rem;
+}
+figure{
+    float: left;
+}

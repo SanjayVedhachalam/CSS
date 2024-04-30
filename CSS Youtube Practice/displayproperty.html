@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            border: thin solid green;
+            width: 50%;
+            margin: 0 auto;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        ul{
+            background-color: orangered;
+        }
+        li:hover{
+            background-color: black;
+            
+        }
+        li{
+            display: inline-block;
+            padding: 10px;
+        }
+        #coming-soon{
+            display: none;
+        }
+        #visibility-coming-soon{
+            visibility:hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Visibility Properties</h2>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li id="coming-soon"><a href="">Courses</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <h2>Display Properties</h2>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li id="visibility-coming-soon"><a href="">Courses</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>
